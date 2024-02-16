@@ -23,4 +23,4 @@ We initially set out to create a full-CRUD MERN app that would allow users to jo
 * Additionally, we would like to add dietary considerations (e.g. vegetarian, vegan, gluten-free, etc.) to recipes and allow users to filter recipes by these tags.
 
 ## Visit the Deployed App
-* 
+* https://potluck-recipes-7dbbecd03bcc.herokuapp.com/
