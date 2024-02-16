@@ -10,11 +10,11 @@ const User = require('../models/users.js')
 ///////////////////////
 // Routes
 ///////////////////////
-// users.get('/new', (req, res) => {
-//     User.find({}, (err, foundUser) => {
-//         res.json(foundUser)
-//     });
-// });
+users.get('/new', (req, res) => {
+    User.find({}, (err, foundUser) => {
+        res.json(foundUser)
+    });
+});
 
 users.post('/', (req, res) => {
     req.body.password = bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10))
