@@ -1,7 +1,7 @@
 {
   "name": "potluck",
   "version": "1.0.0",
-    "engines": {
+  "engines": {
     "npm": "10.4.0",
     "node": "20.11.1"
   },
@@ -27,6 +27,7 @@
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "mongoose": "^5.12.8"
+    "mongodb": "^6.3.0",
+    "mongoose": "^5.13.22"
   }
 }
